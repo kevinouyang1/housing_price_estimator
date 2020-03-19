@@ -10,3 +10,9 @@ Due to the recent housing bubble in the GTA, my parents were adamant about selli
 ## How it works
 
 Firstly, the data is all compiled and then using Inspect Element, taken as code and copied into a text edit file. Then, the program extracts it from the file and begins to separate the cluttered code line by line. These new houses are then appended to a list. The houses, now dictionaries, contain four values, being the date it was sold, the sold price, the type of the house, and the style of the house. Finally, the program filters through and uses only the data of houses that are only a certain type and a certain style, and outputs the sold price and sold date into a CSV.
+
+## File guide
+
+json_parser.py is the actual program
+data.json is the data pulled and used in the program
+crobsy_filtered_bungalow+detached.csv is the file where the new values will be outputted to
